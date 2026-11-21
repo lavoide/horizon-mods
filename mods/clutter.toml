@@ -1,0 +1,28 @@
+id = "clutter"
+kind = "native-mod"
+name = "Clutter"
+summary = "Furniture you can sit on, candles and chandeliers, lamps, curtains that open, cupboards, copper, silver and onyx."
+description = """
+Over a thousand decoration blocks: chairs, armchairs, benches and toilets you can sit on, tables whose legs join their neighbours, tall curtains that open together, cupboards, wall bookshelves, mailboxes and presents that store items, candelabras, chandeliers and wall candles you light with flint and steel, lamps that switch on by hand or by redstone, plushies, mosaics, shelves and kitchen things. Copper decor weathers and can be scraped or waxed. Silver ore and silver armour and coins, sulphur ores in the basalt deltas, onyx geodes in the Nether, cattails, lupines, sea shells, clams, glowlilies, kiwi and thornbloom crops, redwood saplings, and the jar's foods and effects.
+
+**Differences from the original:** The 14 mobs (butterflies, kiwis, penguins, beavers, capybaras and the rest) and their GeckoLib animations aren't ported; their spawn eggs and buckets are plain items. The giant redwood forest and lupine field biomes aren't added, and redwood saplings grow approximate trees. The brick kiln and its recipes, the coin pouch, the Greed and Necrosis enchantments, armour trims and the Trinkets compatibility are left out. Fish tanks don't join, bunk beds act as plain beds, and most decor can't be waterlogged.
+
+A port of [Clutter](https://github.com/EmilsGithub/Clutter-Mod-Repository) 1.20-0.6.2 by EmilSG, published under its licence, MIT. The original copyright and licence notices are kept in the file (LICENSE, NOTICE).
+
+Its textures, models and data come from the original mod. No Minecraft code is included."""
+authors = ["lavoide", "EmilSG"]
+owners = ["lavoide"]
+owner_ids = [38075742]
+license = "MIT"
+source = "https://github.com/lavoide/horizon-ports/tree/main/clutter"
+icon = "icons/clutter.png"
+categories = ["decoration", "worldgen"]
+tags = ["homestead", "port"]
+
+[[versions]]
+version = "0.2.0"
+published = "2026-11-21"
+game = "26.3"
+file = "clutter.hmod"
+sha256 = "04e27ffea14078bd622f1b6c718ac2085cfdfa548c9e9ca19bfae3fbd0d35dee"
+changelog = "First registry release. Built with the exact-build SDK dd67b76 on the mod API only, with LICENSE and NOTICE in the package."
