@@ -20,9 +20,9 @@ categories = ["utility"]
 tags = ["homestead", "port"]
 
 [[versions]]
-version = "0.4.1"
-published = "2026-11-20"
+version = "0.4.2"
+published = "2026-11-22"
 game = "26.3"
 file = "universalgraves.hmod"
-sha256 = "b29596dccd410f287e45877a2d2d57f74000686448d5a191437de30077802ae9"
-changelog = "0.4.1: spectators can't open graves, and the XP put in a grave is the dying player's own death drop."
+sha256 = "ed8524faf0a5e086acc58b837779ff09e7bffd3bad578c6a4df8b28182b6f84e"
+changelog = "0.4.2: a new grave never takes the block of an older grave that hasn't spilled yet, a removed grave is noticed in every dimension a player is in, and trinkets that can't be taken off stay worn."
