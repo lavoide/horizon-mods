@@ -1,0 +1,28 @@
+id = "mythicupgrades"
+kind = "native-mod"
+name = "Mythic Upgrades"
+summary = "Eight gems and necoium with their ores and crystal geodes, and armour sets and tools that each have their own effect."
+description = """
+Eight gems (sapphire, ametrine, topaz, ruby, peridot, aquamarine, citrine, jade) and necoium, with their ores, crystal geodes in the Overworld, the Nether and the End, budding crystals that grow buds and clusters, bricks, schists and cave patches of crystal blocks. A smithing template from end city chests upgrades netherite gear into each gem's tools and armour. A full armour set gives its gem's effect: Damage Deflection, Arcane Aura, Topaz Reaction, Blood Thirst, Miasma, Ice Shield, Static Field or Jade Aura, and each tool has its own on-hit effect: percentage damage, levitation and teleport, shocks, life steal, poison bursts, freezing, chain lightning. The gem shards are armour trim materials, and the necoium carrot shares effects between nearby holders.
+
+**Differences from the original:** Armour trims made of the mod's gems are applied and saved but not drawn, on worn armour or on item icons, because the game's client doesn't load trim materials from mods ([horizon#19695](https://github.com/horizon-rust/horizon/issues/19695)); vanilla trim materials draw on the mod's armour. There are no potions or brewing recipes for the mod's effects (the effects themselves come from the armour, the tools and the necoium carrot). The Mythic Caves, Rifts and Barrens biomes don't generate: their crystals and ores appear as patches inside the existing biomes, without the biomes' own music, fog or colours. The ruby and jade tools' right-click effects are left out, the particles are plain dust rings and puffs, and on this Horizon build the mod's damage types fall back to magic or generic damage, so death messages say so. There is no config file: the original's default numbers are used.
+
+A port of [Mythic Upgrades](https://github.com/TriQue06/mythic-upgrades-multiloader/tree/1.20.1) 5.1.1 by TriQue, published under its licence, MIT. The original copyright and licence notices are kept in the file (LICENSE, NOTICE).
+
+Its textures, models, sounds and data come from the original mod. No Minecraft code is included."""
+authors = ["lavoide", "TriQue"]
+owners = ["lavoide"]
+owner_ids = [38075742]
+license = "MIT"
+source = "https://github.com/lavoide/horizon-ports/tree/main/mythicupgrades"
+icon = "icons/mythicupgrades.png"
+categories = ["equipment", "worldgen"]
+tags = ["homestead", "port"]
+
+[[versions]]
+version = "0.2.0"
+published = "2026-11-22"
+game = "26.3"
+file = "mythicupgrades.hmod"
+sha256 = "1421562ec4d2e6e91b001cd2d390340f787115329fcfedd3817539770a404c16"
+changelog = "First registry release. Built with the exact-build SDK dd67b76 on the mod API only, with LICENSE and NOTICE in the package."
