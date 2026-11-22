@@ -5,7 +5,7 @@ summary = "Your items wait in a grave where you died."
 description = """
 Your items wait in a grave where you died.
 
-**Differences from the original:** The grave is a skeleton skull, not a gravestone with the player's name and timer. Right-clicking it gives everything back at once, and there is no grave screen. There is no death compass and no /graves command. The grave keeps vanilla's death experience instead of all of the player's experience.
+**Differences from the original:** The grave is a skeleton skull, not a gravestone with the player's name and timer. Right-clicking it gives everything back at once, and there is no grave screen. There is no death compass and no /graves command. The grave keeps vanilla's death experience instead of all of the player's experience. An explosion or a piston breaks the skull: the grave's items drop where it stood, the skull drops as an item, and the 15-minute protection doesn't stop it.
 
 A port of [Universal Graves](https://github.com/Patbox/UniversalGraves) 3.0.3 by Patbox, published under its licence, LGPL-3.0-only. The original copyright and licence notices are kept in the file (COPYING, LICENSE, NOTICE).
 
@@ -26,3 +26,11 @@ game = "26.3"
 file = "universalgraves.hmod"
 sha256 = "ed8524faf0a5e086acc58b837779ff09e7bffd3bad578c6a4df8b28182b6f84e"
 changelog = "0.4.2: a new grave never takes the block of an older grave that hasn't spilled yet, a removed grave is noticed in every dimension a player is in, and trinkets that can't be taken off stay worn."
+
+[[versions]]
+version = "0.4.3"
+published = "2026-11-22"
+game = "26.3"
+file = "universalgraves.hmod"
+sha256 = "25efc8680849d39694c86846d2bcd1d140d65455da8d2832ebf3e741330c0b0b"
+changelog = "0.4.3: the body and saddle slots go into the grave too and come back to those slots when the owner opens it (into the inventory if the slot is taken), and the listing names what an explosion or a piston does to a grave."
