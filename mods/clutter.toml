@@ -20,9 +20,9 @@ categories = ["decoration", "worldgen"]
 tags = ["homestead", "port"]
 
 [[versions]]
-version = "0.2.0"
-published = "2026-11-21"
+version = "0.2.1"
+published = "2026-11-22"
 game = "26.3"
 file = "clutter.hmod"
-sha256 = "04e27ffea14078bd622f1b6c718ac2085cfdfa548c9e9ca19bfae3fbd0d35dee"
-changelog = "First registry release. Built with the exact-build SDK dd67b76 on the mod API only, with LICENSE and NOTICE in the package."
+sha256 = "1471ed3d852d1a799b8b4a3ca1999358737201f9a4a317373958b8d3f9f90861"
+changelog = "0.2.1: open seats, saplings waiting to grow and the tick count are reset when a world starts or stops, and a seat only ever removes its own tagged stand."
