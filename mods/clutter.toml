@@ -26,3 +26,11 @@ game = "26.3"
 file = "clutter.hmod"
 sha256 = "1471ed3d852d1a799b8b4a3ca1999358737201f9a4a317373958b8d3f9f90861"
 changelog = "0.2.1: open seats, saplings waiting to grow and the tick count are reset when a world starts or stops, and a seat only ever removes its own tagged stand."
+
+[[versions]]
+version = "0.2.2"
+published = "2026-11-22"
+game = "26.3"
+file = "clutter.hmod"
+sha256 = "0e19834ba685dbd26b191414b931d5e392f887a827f0e7b4b8c508a3174bea23"
+changelog = "0.2.2: a 3x3 of redwood saplings counts as grown when the new trunk stands at the feature's origin (the middle cell), and a failed grow only puts saplings back into cells that are still empty."
