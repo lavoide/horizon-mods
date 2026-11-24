@@ -1,15 +1,15 @@
 id = "spelunkery"
 kind = "native-mod"
 name = "Spelunkery"
-summary = "Ores in granite, andesite, diorite and tuff, rough gems and raw nuggets, cave mushrooms, rock salt, glowsticks, rope ladders and mining tools."
+summary = "Rough gems and raw nuggets from ores, cave mushrooms, geodes, rock salt, glowsticks, rope ladders and mining tools."
 description = """
-Caves get more to find. Coal, iron, copper, gold, redstone, lapis, diamond and zinc ores come in granite, andesite, diorite and tuff, and ores drop rough gems and raw nuggets: nuggets craft into raw ore, and rough gems are polished on a grindstone (diamonds and emeralds on the diamond grindstone, which wears with use), where stones polish too. Underground there are nephrite, magnetite and quartz geodes, large coal veins, rock salt with crystals on cave ceilings, sulfur, tangle roots, sporophytes on moss, and cave mushrooms: inkcaps, portabellas, mushgloom, phosphor fungus and milly bubcaps, which spread and grow into huge mushrooms with bone meal. Rope ladders hang and extend down, thrown glowsticks stick where they land, salt lamps connect, and there is a depth gauge, an item magnet and a parachute that stops fall damage. Vanilla diamond ore drops rough diamonds too, and mineshafts, ruined portals, strongholds and ancient cities hold the mod's loot.
+Caves get more to find. Ores drop rough gems and raw nuggets: vanilla diamond, emerald, lapis and redstone ores give rough gems (their deepslate kinds rough shards too), deepslate coal, copper, gold and iron ores raw nuggets besides their usual drop, and nether gold ore raw gold nuggets; nuggets craft into raw ore, and rough gems are polished on a grindstone (diamonds and emeralds on the diamond grindstone, which wears with use), where stones polish too. Underground there are nephrite, magnetite and quartz geodes, large coal veins, rock salt with crystals on cave ceilings, sulfur, tangle roots, sporophytes on moss, and cave mushrooms: inkcaps, portabellas, mushgloom, phosphor fungus and milly bubcaps, which spread and grow into huge mushrooms with bone meal. Rope ladders hang and extend down, thrown glowsticks stick where they land, salt lamps connect, and there is a depth gauge, an item magnet and a parachute that stops fall damage. Shears take sculk veins (and up to two from sculk), piglins no longer barter crying obsidian, and mineshafts, ruined portals, strongholds and ancient cities hold the mod's loot.
 
-**Differences from the original:** Portal fluid acts like water: it doesn't teleport, glow or work as a drink. The stone stripes, conk fungus generation, the huge conk, the portal fluid ocean and the mod's carvers aren't generated, and phosphor fungus and mushgloom generate on cave floors only; bone meal on a conk fungus does nothing. Rock salt doesn't give light. The hammer and chisel, the tuning and echo forks, the magnetic compass, the compactor, the dust bunny and parachute repacking are left out. The diamond grindstone polishes, wears and is mended as in the original but opens no grindstone screen, so disenchanting needs a vanilla grindstone. Mineomite, the blast miner, sluices and channels are decoration only. Recipes that need Create, Farmer's Delight or other mods are dropped. There is no config file: ores always drop rough gems and raw nuggets, ores never drop their stone, and zinc ores drop raw zinc nuggets.
+**Differences from the original:** The ores in granite, andesite, diorite and tuff are in the creative tab but don't generate: the original made them by changing vanilla's ore features, which a Horizon mod can't do yet without shipping copies of them. Portal fluid acts like water: it doesn't teleport, glow or work as a drink. The stone stripes, conk fungus generation, the huge conk, the portal fluid ocean and the mod's carvers aren't generated, and phosphor fungus and mushgloom generate on cave floors only; bone meal on a conk fungus does nothing. Rock salt doesn't give light. The hammer and chisel, the tuning and echo forks, the magnetic compass, the compactor, the dust bunny and parachute repacking are left out. The diamond grindstone polishes, wears and is mended as in the original but opens no grindstone screen, so disenchanting needs a vanilla grindstone. Mineomite, the blast miner, sluices and channels are decoration only. Recipes that need Create, Farmer's Delight or other mods are dropped. There is no config file: ores always drop rough gems and raw nuggets, ores never drop their stone, and zinc ores drop raw zinc nuggets.
 
 A port of [Spelunkery](https://github.com/AstralOrdana/Spelunkery) 1.20.1-0.3.16 by Ordana and Keybounce (with contributions from Bobisnotaperson, ElBones, Nerjal Nosk, ChromaPIE and Mikeliro), published under its licence, LGPL-3.0-only. The original copyright and licence notices are kept in the file (COPYING, LICENSE, NOTICE).
 
-Its textures, models, sounds and data come from the original mod. The spring water sound is modified from "[remix] Hot Tub Loop" by AnLorenzo (CC BY 3.0), credited in NOTICE. No Minecraft code is included."""
+Its textures, models, sounds and data come from the original mod. The spring water sound is modified from "[remix] Hot Tub Loop" by AnLorenzo (CC BY 3.0), credited in NOTICE. No Minecraft code or data is included: the changes to vanilla loot tables are made on the player's own tables as they load."""
 authors = ["lavoide", "Ordana", "Keybounce"]
 owners = ["lavoide"]
 owner_ids = [38075742]
@@ -20,9 +20,9 @@ categories = ["worldgen", "adventure"]
 tags = ["homestead", "port"]
 
 [[versions]]
-version = "0.2.0"
-published = "2026-11-22"
+version = "0.2.1"
+published = "2026-11-24"
 game = "26.3"
 file = "spelunkery.hmod"
-sha256 = "2d414bb9e4a61bfbaa08b17af8a88b7942dfc1bfc15dbc5f9e6e123fd8696735"
-changelog = "First registry release. Built with the exact-build SDK dd67b76 on the mod API only, with LICENSE, COPYING and NOTICE in the package."
+sha256 = "54c09f1b89165c9ba9caa94e53e9601cdec08df347a9fb8861304e7363958eb4"
+changelog = "0.2.1: no Minecraft data in the package. Spelunkery's changes to vanilla loot tables (rough gems and raw nuggets from vanilla ores, sculk to shears, no crying obsidian from bartering) are made in place on the player's own tables, and the copies of vanilla's ore features are gone, so the stone ore variants no longer generate. Shearing sculk now works."
